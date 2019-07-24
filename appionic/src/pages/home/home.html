@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar color="azul">
+      <ion-title>Transporte de avionetas</ion-title>
+      <ion-buttons start>
+        <button ion-button menuToggle>
+            <ion-icon name="menu">
+            </ion-icon>
+        </button>
+      </ion-buttons>  
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding style="background: none transparent;">
+    <button ion-button rigth (click)="goPagina2()">Comprar pasaje</button>
+    <ion-card>
+        <img src="../../assets/imgs/avioneta01.jpg"/>
+        <ion-card-content>
+          <ion-card-title>
+            Avioneta Cessna 340
+          </ion-card-title>
+          <p>
+            Viaje en un comodo avion junto a su familia a buen precio y 
+            en poco tiempo para llegar a su destino.
+          </p>
+        </ion-card-content>
+      </ion-card>
+</ion-content>
