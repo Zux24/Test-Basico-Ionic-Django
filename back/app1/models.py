@@ -5,32 +5,6 @@ from django.utils import timezone
 # Create your models here.
 # Objetos a definir:
 
-GENERO = [
-    ('f','femenino'),
-    ('m','masculino'),
-]
-
-Region = [
-    ('I','TARAPACA),
-    ('II','ANTOFAGASTA'),
-    ('III','ATACAMA'),
-    ('IV','COQUIMBO'),
-    ('V','VALPARAISO'),
-    ('VI','RANCAGUA'),
-    ('VII','MAULE'),
-    ('VIII','BIO BIO'),
-    ('IX','ARAUCANIA'),
-    ('X','LOS LAGOS'),
-    ('XI','AYSEN'),
-    ('XII','MAGALLANES'),
-    ('XIII','METROPOLITANA'),
-    ('XIV','LOS RIOS'),
-    ('XV','ARICA Y PARINACOTA'),
-    ('XVI','NUBLE'),
-
-]
-
-
 class Pasajero(models.Model):
     rut = models.ForeignKey()
     nombre = models.CharField(max_length=30)
